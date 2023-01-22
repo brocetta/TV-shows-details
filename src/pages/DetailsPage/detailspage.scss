@@ -1,0 +1,32 @@
+.detailspage {
+  padding: 40px 0;
+}
+.imgParag {
+  border-bottom: 1px solid rgb(201, 201, 201);
+  padding-bottom: 5%;
+  img{
+    width: 50%;
+    height: 50%;
+  }
+}
+
+
+.span {
+  background-color: rgb(231, 229, 229);
+  border-radius: 15px;
+  margin: 5px 5px;
+  padding: 3px 20px 5px;
+  box-shadow: 8px 6px 20px -9px rgba(0, 0, 0, 0.75);
+}
+.showName {
+  margin: 50px 10px;
+  text-transform: uppercase;
+}
+.summary {
+  margin: 50px 10px;
+  text-align: justify;
+}
+.spanovi {
+  display: flex;
+  flex-wrap: wrap;
+}

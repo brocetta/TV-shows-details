@@ -1,0 +1,21 @@
+.castCard {
+    
+position: relative;
+height: 250px;
+background-size: cover;
+background-repeat: no-repeat;
+color: white;
+box-shadow: 8px 6px 20px -9px rgba(0, 0, 0, 0.75);
+margin-bottom: 20px;
+// padding: 5px;
+p{
+    position: absolute;
+    bottom: 10px;
+    left: 5px;
+    font-weight: 900;
+    color: rgb(130, 240, 255);
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    
+}
+
+}

@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/https//brocetta.github.io/TV-shows-details/static/css/main.94bfb476.css",
-    "main.js": "/https//brocetta.github.io/TV-shows-details/static/js/main.0ac742b4.js",
-    "index.html": "/https//brocetta.github.io/TV-shows-details/index.html",
-    "main.94bfb476.css.map": "/https//brocetta.github.io/TV-shows-details/static/css/main.94bfb476.css.map",
-    "main.0ac742b4.js.map": "/https//brocetta.github.io/TV-shows-details/static/js/main.0ac742b4.js.map"
+    "main.css": "/https//brocetta.github.io/static/css/main.94bfb476.css",
+    "main.js": "/https//brocetta.github.io/static/js/main.0ac742b4.js",
+    "index.html": "/https//brocetta.github.io/index.html",
+    "main.94bfb476.css.map": "/https//brocetta.github.io/static/css/main.94bfb476.css.map",
+    "main.0ac742b4.js.map": "/https//brocetta.github.io/static/js/main.0ac742b4.js.map"
   },
   "entrypoints": [
     "static/css/main.94bfb476.css",

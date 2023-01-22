@@ -1,3 +1,8 @@
+To run this code locally after downloading you need to run 'npm install' and after that you need to run 'npm install node-sass@4.0.0 --save-dev' after instaling is done just run 'npm start'.
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

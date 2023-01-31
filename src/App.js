@@ -15,7 +15,7 @@ function App() {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    fetch("http://api.tvmaze.com/shows")
+    fetch("//api.tvmaze.com/shows")
       .then((res) => res.json())
       .then((data) => {
         setFetchData(data);

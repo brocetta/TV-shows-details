@@ -8,13 +8,13 @@ function DetailsPage(props) {
   const [castData, setCastData] = useState([]);
   const [castList, setCastList] = useState(true);
   useEffect(() => {
-    fetch(`http://api.tvmaze.com/shows/${props.showId}`)
+    fetch(`//api.tvmaze.com/shows/${props.showId}`)
       .then((res) => res.json())
       .then((data) => setFetchData(data));
   }, []);
 
   useEffect(() => {
-    fetch(`https://api.tvmaze.com/shows/${props.showId}/cast`)
+    fetch(`//api.tvmaze.com/shows/${props.showId}/cast`)
       .then((res) => res.json())
       .then((data) => setCastData(data));
   }, []);

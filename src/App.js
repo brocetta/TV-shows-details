@@ -27,21 +27,21 @@ function App() {
     <>
       <Header />
       <Switch>
-        <Route exact path="/">
+        <Route exact path="/TV-shows-details">
           {!isLoading ? (
             <LandingPage fetchData={fetchData} setShowId={setShowId} />
           ) : (
             <Loader />
           )}
         </Route>
-        <Route path="/details/" exact>
+        <Route exact path="/details">
           {!isLoading ? (
             <DetailsPage fetchData={fetchData} showId={showId} />
           ) : (
             <Loader />
           )}
         </Route>
-        <Route path="/about">
+        <Route exact path="/about">
           <AboutPage />
         </Route>
       </Switch>

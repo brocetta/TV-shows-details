@@ -4,9 +4,9 @@ import Header from "./components/Header/Header";
 import LandingPage from "./pages/LandingPage/LandingPage";
 import DetailsPage from "./pages/DetailsPage/DetailsPage";
 import React from "react";
-import { useState, useEffect } from "react";
+import {useState, useEffect} from "react";
 import AboutPage from "./pages/AboutPage/AboutPage";
-import { Switch, Route } from "react-router-dom";
+import {Switch, Route} from "react-router-dom";
 import Loader from "./components/Loader/Loader";
 
 function App() {

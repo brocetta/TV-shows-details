@@ -21,13 +21,13 @@ function App() {
         setFetchData(data);
         setTimeout(() => setIsLoading(false), 1000);
       });
-  }, [fetchData]);
+  }, []);
 
   return (
     <>
       <Header />
       <Switch>
-        <Route exact path="/">
+        <Route exact path="">
           {!isLoading ? (
             <LandingPage fetchData={fetchData} setShowId={setShowId} />
           ) : (
